@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #F6F5F5;
+}
+/* LOGIN PANEL*/
+.login-panel{
+	margin: 100px auto 0 auto;
+	width: 350px;
+	height: 500px;
+}
+.logo{
+	width: 100%;
+	height: 100px;
+	margin-bottom: 25px;
+}
+.login-form{
+	background-color: white;
+	width: 80%;
+	height: 250px;
+	margin-bottom: 30px;
+	box-shadow: 0 0 3px #CCCBCB;
+	padding-top: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.links{
+	height: 75px;
+	line-height: 30px;
+	margin-left: 10%;
+}
+.links>a{
+	text-decoration: none;
+	color: #004b8e;
+}
+.links>a:hover{
+	color: orangered;
+}
+.form-group{
+	margin-bottom: 10px;
+	font-size: 18px;
+	width: 100%;
+	line-height: 35px;
+}
+.form-control{
+	width: 99%;
+	line-height: 35px;
+	font-size: 18px;
+}
+.form-button{
+	float: right;
+	line-height: 35px;
+	width: 70px;
+	outline: none;
+	margin: 0;
+	background-color: #004b8e;
+	border: 1px solid #004b8e;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+}
+.form-button:hover{
+	background-color: #1266B1;
+}
+.button{
+	margin-top: 20px;
+}
+.checkbox{
+	float: left;	
+}
+
+
+/* REGISTER PANEL*/
+.register-panel{
+	margin: 50px auto 0 auto;
+	width: 800px;
+}
+.logo-register{
+	width: 350px;
+	height: 100px;
+	margin-bottom: 25px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.register-form{
+	background-color: white;
+	width: 80%;
+	margin-bottom: 30px;
+	box-shadow: 0 0 3px #CCCBCB;
+	padding-top: 20px;
+	padding-left: 10%;
+	padding-right: 10%;	
+}
+.form{
+	display: block;
+	width: 100%;
+	line-height: 35px;
+	font-size: 18px;
+	
+	
+}
+.label{
+	float: left;
+	width: 20%;
+	margin-right: 5%;
+}
+
+.register-form-control{
+	float: right;
+	width: 70%;
+}
+.form-control{
+	line-height: 25px;
+	font-size: 18px;
+}
+.register-form-button{
+	height: 40px;
+	padding-bottom: 20px;
+	
+}
